@@ -39,7 +39,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/e/software-carpentry-workshop-in-python-at-macquarie-university-tickets-64224905421"
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
   height="280px"
