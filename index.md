@@ -196,6 +196,9 @@ SETUP
   Before attending the workshop, you will need to ensure you have:
   <ul>
     <li> A macOS, Windows or Linux laptop for use during the workshop. </li>
+    <li> Internet access from your device - Macquarie OneNet Wifi and eduRoam are available in the venue. </li>
+    <li> A GitHub account - sign up is free. </li>
+    <li> Completed the: Pre-worshop Survey </li>
   </ul>
 </p>
 
