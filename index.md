@@ -204,6 +204,7 @@ SETUP
       <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a>.
       {% endcomment %}
     </li>
+    <li> another bullet</li>
   </ul>
 </p>
 
