@@ -194,22 +194,6 @@ SETUP
 <h2 id="setup">Pre Workshop Setup</h2>
 <p>
   Before attending the workshop, you will need to ensure you have:
-  
-  <ul>
-    <li> A macOS, Windows or Linux laptop for use during the workshop.
-    <li> An up-to-date web browser (eg Google Chrome).
-    <li> Internet access from your device - Macquarie OneNet Wifi and eduRoam are available in the venue.
-    <li> A GitHub account - sign up is free.
-     {% comment %}
-    
-    <li> Completed the:
- 
-      
-      <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a>.
-      
-    {% endcomment %}
-  </ul>
-  
 </p>
 
 {% comment %}
@@ -227,6 +211,7 @@ All the workshop materials are available in the follow in GitHub Repository:
 and we will be using the following shared Google Doc for in class collaboration:
   
 <ul>
+  <img src="https://img.icons8.com/color/48/000000/google-docs.png">
   <a href="https://goog.gl/TBA">https://google/to-be-advised</a>
 </ul>
 </p>
