@@ -165,7 +165,7 @@ CONTACT EMAIL ADDRESS
 
 {% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
+
 <h2 id="surveys">Surveys</h2>
 <p>Please complete these surveys before and after the workshop:</p>
 
@@ -173,6 +173,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 </ul>
+{% endcomment %}
 
 {% comment %}
 SCHEDULE
@@ -191,21 +192,18 @@ SETUP
 
 {% endcomment %}
 
-<h2 id="setup">Before Workshop Setup</h2>
+<h2 id="setup">Pre Workshop Setup</h2>
 
 <p>
-  Before attending the workshop, participants need to:
+  Before attending the workshop, you will need to ensure you have:
   
   <ul>
-    <li> Ensure they have a macOS, Windows or Linux laptop for use during the workshop.
-    <li> An up-to-date web browser (eg Google Chrome)
-    <li> Have internet access from their device - Macquarie OneNet Wifi and eduRoam are available in the venue.
-    <li> Ensure they have a <href a="https://github.com">GitHub</a> account
+    <li> A macOS, Windows or Linux laptop for use during the workshop.
+    <li> An up-to-date web browser (eg Google Chrome).
+    <li> Internet access from you device - Macquarie OneNet Wifi and eduRoam are available in the venue.
+    <li> A <href a="https://github.com">GitHub</a> account - sign up is free.
+    <li> Completed the Pre-Workshop Survey: <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>.
   </ul>
-    
- <p>
- During the workshop, participants will be using the web based environment called
- <
  
 </p>
 
@@ -218,7 +216,7 @@ Workshop Materials
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
   <a href="">To-Be-Advised</a>
-/ul>
+</ul>
 
 and we will be using the following shared Google Doc for in class collaboration:
   
