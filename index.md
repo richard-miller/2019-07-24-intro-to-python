@@ -174,18 +174,11 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 </ul>
 
-<hr/>
-
-
 {% comment %}
 SCHEDULE
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 {% include sc/schedule.html %}
-
-
-
-
 
 {% comment %}
 SYLLABUS
@@ -217,14 +210,14 @@ SETUP
 </p>
 
 {% comment %}
-Collaborative Notes
-
+Workshop Materials
 {% endcomment %}
 <h2>Workshop Materials</h2>
 
+<p>
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
-<a href="">To-Be-Advised</a>
+  <a href="">To-Be-Advised</a>
 /ul>
 
 and we will be using the following shared Google Doc for in class collaboration:
@@ -232,9 +225,5 @@ and we will be using the following shared Google Doc for in class collaboration:
 <ul>
   <a href="https://goog.gl/TBA">https://google/to-be-advised</a>
 </ul>
-  </ul>
-<h3>Workstop GitHub 
-<p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
-{% endif %}
+
