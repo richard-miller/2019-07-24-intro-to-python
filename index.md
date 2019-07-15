@@ -194,6 +194,9 @@ SETUP
 <h2 id="setup">Pre Workshop Setup</h2>
 <p>
   Before attending the workshop, you will need to ensure you have:
+  <ul>
+    <li> A macOS, Windows or Linux laptop for use during the workshop. </li>
+  </ul>
 </p>
 
 {% comment %}
@@ -204,6 +207,7 @@ Workshop Materials
 <p>
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
+  <img src="https://img.icons8.com/color/48/000000/git.png">
   <a href="">to-be-advised</a>
 </ul>
 
