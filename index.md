@@ -198,7 +198,7 @@ SETUP
     <li> A macOS, Windows or Linux laptop for use during the workshop. </li>
     <li> Internet access from your device - Macquarie OneNet Wifi and eduRoam are available in the venue. </li>
     <li> A GitHub account - sign up is free. </li>
-    <li> Completed the: Pre-worshop Survey </li>
+    <li> Completed the: <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a> </li>
   </ul>
 </p>
 
