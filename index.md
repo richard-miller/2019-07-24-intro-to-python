@@ -52,17 +52,10 @@ displayed if the 'eventbrite' field in the header is not set.
 
 {% comment %}
 INTRODUCTION
-
-Edit the general explanatory paragraph below if you want to change
-the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
+
 {% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
+
 
 {% comment %}
 AUDIENCE
@@ -70,13 +63,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
 {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
 
 {% comment %}
 LOCATION
@@ -112,22 +99,20 @@ This block displays the date and links to Google Calendar.
 
 {% comment %}
 SPECIAL REQUIREMENTS
-
-Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  MacOS, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+  <strong>Requirements:</strong> Participants will need to bring a laptop with a
+  macOS, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   They will need an internet browser installed (Chrome recommended).
-  Participants should also sign-up for a <href="https://github.com/">GitHub</a> account if they don't already have one (see <a href="#setup">Setup</a> below).
-  
- </p>
+  Participants must also sign-up for a <href="https://github.com/">GitHub</a> account if they don't already have one.
+</p>
 
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
-<strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the 
+<strong>Code of Conduct:</strong>
+Everyone who participates in Carpentries activities is required to conform to the 
 <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. 
 This document also outlines how to report an incident if needed.
 </p>
@@ -135,8 +120,6 @@ This document also outlines how to report an incident if needed.
 
 {% comment %}
 ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or special instructions.
 {% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop accessible to everybody.
@@ -157,8 +140,6 @@ Modify the block below if there are any barriers to accessibility or special ins
 
 {% comment %}
 CONTACT EMAIL ADDRESS
-
-Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
@@ -186,11 +167,12 @@ Display the contact email address set in the configuration file.
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
- 
+<p>Please complete these surveys before and after the workshop:</p>
+
+<ul>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-
+</ul>
 
 <hr/>
 
@@ -202,62 +184,45 @@ SCHEDULE
 {% include sc/schedule.html %}
 
 
-{% comment %}
-Collaborative Notes
 
-If you want to use an Etherpad, go to
 
-http://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-{% endcomment %}
-{% if page.collaborative_notes %}
-<p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
-
-<hr/>
 
 {% comment %}
 SYLLABUS
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
-
-<hr/>
 
 {% comment %}
 SETUP
 
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Before Workshop Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the following tools:
+  Before attending the workshop, participants need to:
   
-  An up-to-date web browser (eg Google Chrome) |
-  A wireless connection to the Internet |
-  GitHub |
-  MyBinder
-  
+  <ul>
+    <li> Ensure they have a macOS, Windows or Linux laptop for use during the workshop.
+    <li> An up-to-date web browser(eg Google Chrome)
+    <li> Have internet access from their device - Macquarie OneNet Wifi and eduRoam are available in the venue.
+    <li> Ensure they have a <href a="https://github.com">GitHub</a> account
+  </ul>
+    
+ <p>
+ During the workshop, participants will be using the web based environment called
+ <
+ 
 </p>
 
+{% comment %}
+Collaborative Notes
+
+{% endcomment %}
+<h2 id="setup">Collaborative Notes</h2>
+
+<p id="collaborative_notes">
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+{% endif %}
