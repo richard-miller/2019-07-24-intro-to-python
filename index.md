@@ -205,7 +205,7 @@ SETUP
   
   <ul>
     <li> Ensure they have a macOS, Windows or Linux laptop for use during the workshop.
-    <li> An up-to-date web browser(eg Google Chrome)
+    <li> An up-to-date web browser (eg Google Chrome)
     <li> Have internet access from their device - Macquarie OneNet Wifi and eduRoam are available in the venue.
     <li> Ensure they have a <href a="https://github.com">GitHub</a> account
   </ul>
@@ -220,8 +220,20 @@ SETUP
 Collaborative Notes
 
 {% endcomment %}
-<h2 id="setup">Collaborative Notes</h2>
+<h2>Workshop Materials</h2>
 
+All the workshop materials are available in the follow in GitHub Repository:
+<ul>
+<a href="">To-Be-Advised</a>
+/ul>
+
+and we will be using the following shared Google Doc for in class collaboration:
+  
+<ul>
+  <a href="https://goog.gl/TBA">https://google/to-be-advised</a>
+</ul>
+  </ul>
+<h3>Workstop GitHub 
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
