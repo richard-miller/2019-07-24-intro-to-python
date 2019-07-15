@@ -200,8 +200,8 @@ SETUP
   <ul>
     <li> A macOS, Windows or Linux laptop for use during the workshop.
     <li> An up-to-date web browser (eg Google Chrome).
-    <li> Internet access from you device - Macquarie OneNet Wifi and eduRoam are available in the venue.
-    <li> A <href a="https://github.com">GitHub</a> account - sign up is free.
+    <li> Internet access from your device - Macquarie OneNet Wifi and eduRoam are available in the venue.
+    <li> A <a href="https://github.com">GitHub</a> account - sign up is free.
     <li> Completed the: <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a>.
   </ul>
  
@@ -215,9 +215,10 @@ Workshop Materials
 <p>
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
-  <a href="">To-Be-Advised</a>
+  <a href="">to-be-advised</a>
 </ul>
 
+<p>
 and we will be using the following shared Google Doc for in class collaboration:
   
 <ul>
@@ -225,3 +226,7 @@ and we will be using the following shared Google Doc for in class collaboration:
 </ul>
 </p>
 
+<br/>
+<br/>
+<br/>
+<br/>
