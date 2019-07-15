@@ -187,36 +187,20 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+ 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
+
 
 <hr/>
 
 
 {% comment %}
 SCHEDULE
-
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
-
-{% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
+
 
 {% comment %}
 Collaborative Notes
@@ -238,20 +222,6 @@ e.g., '2015-06-10-esu'.
 
 {% comment %}
 SYLLABUS
-
-Show what topics will be covered.
-
-1. If your workshop is R rather than Python, remove the comment
-around that section and put a comment around the Python section.
-2. Some workshops will delete SQL.
-3. Please make sure the list of topics is synchronized with what you
-intend to teach.
-4. You may need to move the div's with class="col-md-6" around inside
-the div's with class="row" to balance the multi-column layout.
-
-This is one of the places where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
