@@ -202,7 +202,7 @@ SETUP
     <li> An up-to-date web browser (eg Google Chrome).
     <li> Internet access from you device - Macquarie OneNet Wifi and eduRoam are available in the venue.
     <li> A <href a="https://github.com">GitHub</a> account - sign up is free.
-    <li> Completed the Pre-Workshop Survey: <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>.
+    <li> Completed the: <a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a>.
   </ul>
  
 </p>
