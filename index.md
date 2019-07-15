@@ -199,7 +199,7 @@ SETUP
     <li> A macOS, Windows or Linux laptop for use during the workshop.
     <li> An up-to-date web browser (eg Google Chrome).
     <li> Internet access from your device - Macquarie OneNet Wifi and eduRoam are available in the venue.
-    <li> A <a href="https://github.com>GitHub</a> account - sign up is free.
+    <li> A <a href="https://github.com">GitHub</a> account - sign up is free.
     {% comment %}
     <li> Completed the:
  
