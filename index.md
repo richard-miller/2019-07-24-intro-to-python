@@ -211,7 +211,7 @@ Workshop Materials
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
   <img src="https://img.icons8.com/color/48/000000/git.png">
-  <a href="">to-be-advised</a>
+  <a href="">https://github.com/MQ-software-carpentry/2019-07-24-intro-to-python-workshop</a>
 </ul>
 
 <p>
@@ -219,7 +219,7 @@ and we will be using the following shared Google Doc for in class collaboration:
   
 <ul>
   <img src="https://img.icons8.com/color/48/000000/google-docs.png">
-  <a href="https://goog.gl/TBA">https://google/to-be-advised</a>
+  <a href="https://tinyurl.com/y629s5ta">https://tinyurl.com/y629s5ta</a>
 </ul>
 </p>
 
