@@ -211,7 +211,7 @@ Workshop Materials
 All the workshop materials are available in the follow in GitHub Repository:
 <ul>
   <img src="https://img.icons8.com/color/48/000000/git.png">
-  <a href="">https://github.com/MQ-software-carpentry/2019-07-24-intro-to-python-workshop</a>
+  <a href="https://github.com/MQ-software-carpentry/2019-07-24-intro-to-python-workshop">https://github.com/MQ-software-carpentry/2019-07-24-intro-to-python-workshop</a>
 </ul>
 
 <p>
