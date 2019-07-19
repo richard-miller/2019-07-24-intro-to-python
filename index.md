@@ -104,7 +104,7 @@ SPECIAL REQUIREMENTS
   <strong>Requirements:</strong> Participants will need to bring a laptop with a
   macOS, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   They will need an internet browser installed (Chrome recommended).
-  Participants must also sign-up for a <href="https://github.com/">GitHub</a> account if they don't already have one.
+  Participants must also sign-up for a <a href="https://github.com/">GitHub</a> account if they don't already have one.
 </p>
 
 {% comment%}
