@@ -183,9 +183,11 @@ SCHEDULE
 
 {% comment %}
 SYLLABUS
-{% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 {% include sc/syllabus.html %}
+{% endcomment %}
+
 
 {% comment %}
 SETUP
